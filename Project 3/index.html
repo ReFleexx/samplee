@@ -1,0 +1,309 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Flexy MarketPlace</title>
+
+    <style>
+
+    .click {
+
+        background-color: green;
+        color: white;
+        height: 30px;
+        border: none;
+        width: 80px;
+        border-radius: 3px;
+        cursor: pointer;
+        margin-left: 5px;
+        transition: opacity 0.15s;
+        }
+
+    .click:hover {
+        background-color: yellowgreen;
+        color: black;
+        transition: 0.5;
+        opacity: 0.5;
+        border-style: solid;
+    }
+
+    .click:active {
+        opacity: 0.2;
+    }
+
+
+    .buy {
+        background-color:greenyellow;
+        border-style: solid;
+        border-width: 1px;
+        border-color: red;
+        border-radius: 5px;
+        height: 35px;
+        width: 90px;
+        font-weight: bold;
+        font-size: 15px;
+        cursor: pointer;
+    }
+
+    .buy:hover {
+        opacity: 0.7;
+        color: dodgerblue;
+        box-shadow: 5px 5px 10px;
+    }
+
+    .add {
+        background-color: black;
+        color: white;
+        height: 35px;
+        border: none;
+        width: 90px;
+        border-radius: 3px;
+        cursor: pointer;
+        margin-left: 5px;
+        transition: opacity 0.15s;
+    }
+
+    .add:hover {
+        background-color: white;
+        color: black;
+        border-style: solid;
+        border-color: black;
+        opacity: 0.7s;
+    }
+
+    .subscribe {
+        background-color: red;
+        color: white;
+        height: 30px;
+        border: none;
+        width: 100px;
+        border-radius: 3px;
+        cursor: pointer;
+        margin-left: 5px;
+        transition: opacity 0.15s
+    }
+
+    .subscribe:hover {
+        opacity: 0.7;
+    }
+
+    .join {
+        background-color: white;
+        color: black;
+        border-style: solid;
+        border-width: 1px;
+        width: 60px;
+        height: 26px;
+        border-radius: 15px;
+        cursor: pointer;
+        margin-left: 5px;
+        transition: opacity 0.15s
+    }
+
+    .join:hover {
+        background-color: skyblue;
+        color: white;
+    }
+
+    .tweet {
+        background-color:dodgerblue;
+        color: white;
+        height: 36px;
+        width: 80px;
+        border: none;
+        border-width: 1px;
+        border-radius: 15px;
+        font-size: 15px;
+        font-weight: bold;
+        cursor: pointer;
+        margin-left: 5px;
+        transition: opacity 0.15s
+    }
+
+    .tweet:hover {
+        background-color: white;
+        color: dodgerblue;
+        border-style: solid;
+        opacity: 0.8;
+        box-shadow: 5px 5px 10px;
+    }
+
+    .uber {
+        background-color:green;
+        color: white;
+        height: 36px;
+        width: 60px;
+        border-style: solid;
+        border-radius: 10px;
+        border-width: 1px;
+        font-size: 15px;
+        font-weight: bold;
+        cursor: pointer;
+        margin-left: 5px;
+        transition: opacity 0.15s
+    }
+
+    .uber:hover {
+        opacity: 0.7;
+        color: black;
+    }
+
+    .amazon {
+        background-color: yellow;
+        color: black;
+        height: 36px;
+        width: 150px;
+        border: none;
+        border-radius: 19px;
+        font-size: 15px;
+        font-weight: bold;
+        cursor: pointer;
+        margin-left: 5px;
+        transition: opacity 0.15s
+    }
+
+    .amazon:hover {
+        background-color: yellowgreen;
+        color: red;
+        opacity: 0.8;
+        box-shadow: 5px 5px 15px;
+    }
+
+    .github {
+        background-color: rgba(255, 0, 0, 0.347);
+        color: black;
+        height: 36px;
+        width: 100px;
+        border-style: solid;
+        border-radius: 19px;
+        border-width: 1px;
+        font-size: 15px;
+        font-weight: bold;
+        cursor: pointer;
+        margin-left: 5px;
+        transition: opacity 0.15s
+    }
+
+    .github:hover {
+        background-color: red;
+        color: white;
+    }
+
+    .get-started-btn {
+        background-color: rgb(121, 82, 179);
+        border: none;
+        border-radius: 5px;
+        height: 46px;
+        width: 130px;
+        color: white;
+        font-weight: bold;font-size: 15px;
+        cursor: pointer;     
+    }
+
+    .get-started-btn:hover {
+        opacity: 0.5;
+        color: black;
+        box-shadow: 5px 5px 10px;
+    }
+
+    .download-btn {
+        background-color: white;
+        border-style: solid;
+        border-width: 1px;
+        border-color: red;
+        border-radius: 5px;
+        height: 35px;
+        width: 90px;
+        font-weight: bold;
+        font-size: 15px;
+        cursor: pointer;
+    }
+
+    .download-btn:hover {
+        background-color: red;
+        opacity: 0.5;
+        color: white;
+    }
+
+    .apply-btn {
+        background-color:brown;
+        color: yellow;
+        border-style: solid;
+        border-width: 3px;
+        border-color: yellow;
+        border-radius: 15px;
+        height: 35px;
+        width: 150px;
+        font-weight: bold;
+        font-size: 10px;
+        cursor: pointer;
+    }
+
+    .apply-btn:hover {
+        background-color: yellow;
+        color: brown;
+        border-color: brown;
+    }
+
+    .save-btn {
+        
+    }
+
+</style>
+</head>
+<body>
+ <article>
+
+    <a href="contact.html">Contact</a>
+    <h2>What a DAY!!!</h2>
+    <p>FANS are happy!!!</p>
+
+ </article>
+
+ <section>
+
+    <button class="click">Click</button><br></br>
+    <button>Buy</button>
+
+    <p>Hello World!</p>
+    <p>Today I went to the grocery store to buy some eggs and vegetables</p>
+
+ </section>
+
+ <section>
+
+    <a href="www.amazon.com">Amazon</a>
+    <br><br>
+
+    <h4>Nike Gym Sneakers</h4>
+    <p>$39 - in stock</p>
+    <br>
+    <br>
+    <p>Free delivery tomorrow</p>
+
+    <button class="buy">Buy now</button>
+    <button class="add">Add to Cart</button>
+    <br>
+    <br>
+
+    <button class="subscribe">SUBSCRIBE</button>
+    <button class="join">JOIN</button>
+    <button class="tweet">Tweet</button>
+    <br><br><br>
+
+    <button class="uber">Bölt</button>
+    <button class="amazon">Add to Cart</button>
+    <button class="github">Sign Up</button>
+    <br><br><br>
+
+    <button class="get-started-btn">Get Started</button>
+    <button class="download-btn">Download</button><br><br>
+    <button class="apply-btn">Apply on Company Website</button>
+    <button class="save-btn">Save</button>
+
+ </section>
+    
+</body>
+</html>
